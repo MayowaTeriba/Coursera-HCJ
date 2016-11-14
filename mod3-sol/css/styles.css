@@ -1,0 +1,112 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #b2b0ce/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.5em;
+  }
+
+};
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #5565af;
+  border-radius: 0;
+  border: 0;
+}
+
+
+.navbar-brand h1 { /* Company name */
+  font-family: 'Times New Roman', sans-serif;
+  color: #fafafc;
+  font-size: 2.0em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color:   #f25b0f;
+  text-align: center;
+  background-color: white;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+/*Body*/
+
+
+#resol {
+position: absolute;
+clear: left;
+}
+
+.wrapper {
+  background-color: white;
+  height: 1000px;
+}
+
+.row {
+  text-align: center;
+  font-family: 'Arial', serif;
+  color: black;
+  font-size: 1.5em;
+  margin-top: 0px;
+  text-decoration: none;
+}
+
+.row p {
+  margin-top: 10px;
+  text-align: center;
+  font-family: 'Arial', serif;
+  color: black;
+  font-size: .75em;
+}
